@@ -1,0 +1,30 @@
+ img{
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 5px solid black;
+    
+    
+}
+.gallery{
+  
+    height: auto;
+    width: 300px;
+    padding: 20px;
+    display: block;
+    justify-content: center;
+    
+}
+.image,.gallery{
+    display: flex ;
+    flex-wrap:wrap;
+}
+
+i{
+    font-size: 70px;
+    border-radius: 30%;
+    border: 5px solid black;
+    color: blueviolet;
+}
